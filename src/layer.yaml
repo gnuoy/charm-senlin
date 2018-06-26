@@ -1,0 +1,9 @@
+includes:
+  - layer:openstack-api
+  - interface:mysql-shared
+  - interface:rabbitmq
+  - interface:keystone
+options:
+  basic:
+    use_venv: true
+    include_system_packages: true
